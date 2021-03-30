@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var game = new GameEngine();
+            var game = new GameEngine(new Io());
             game.Run();
         }
     }

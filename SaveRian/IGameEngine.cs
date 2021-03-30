@@ -2,7 +2,7 @@ namespace SaveRian
 {
     public interface IGameEngine
     {
-        int LoadUserInput(string forcedInput = "");
+        int LoadUserInput();
         int DesiredPosition(int totalSoldiers);
         void Run();
     }
